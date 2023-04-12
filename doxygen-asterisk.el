@@ -91,8 +91,9 @@ and GREEDY."
   (memq major-mode doxygen-asterisk-modes))
 
 (defun doxygen-asterisk--key (fnc &rest args)
-  "Asterisk key for Doxygen like document string.  This fulfill condition,
-/* with */ into a pair."
+  "Asterisk key for Doxygen like document string.
+
+This fulfill condition, /* with */ into a pair."
   (apply fnc args)
   (when (and doxygen-asterisk-mode (doxygen-asterisk--like-p))
     (save-excursion
