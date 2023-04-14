@@ -81,7 +81,8 @@ and GREEDY."
      actionscript-mode typescript-mode
      go-mode scala-mode
      rust-mode rustic-mode
-     css-mode ssass-mode scss-mode)
+     css-mode ssass-mode scss-mode
+     shader-mode)
   "List of `major-mode' that can be use Doxygen style."
   :type 'list
   :group 'doxygen-asterisk)
