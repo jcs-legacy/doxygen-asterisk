@@ -38,6 +38,12 @@
   :link '(url-link :tag "Repository" "https://github.com/emacs-vs/doxygen-asterisk"))
 
 ;;
+;; (@* "Externals" )
+;;
+
+(defvar lsp-inhibit-lsp-hooks)
+
+;;
 ;; (@* "Entry" )
 ;;
 
@@ -100,7 +106,8 @@ This fulfill condition, /* with */ into a pair."
     (save-excursion
       (when (and (doxygen-asterisk--last-char-in-line-p)
                  (doxygen-asterisk--looking-back "/[*]" 2))
-        (insert "*/")))))
+        (let ((lsp-inhibit-lsp-hooks t))
+          (insert "*/"))))))
 
 (provide 'doxygen-asterisk)
 ;;; doxygen-asterisk.el ends here
