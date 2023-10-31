@@ -81,7 +81,8 @@ and GREEDY."
 (defcustom doxygen-asterisk-modes
   '( c-mode c++-mode objc-mode csharp-mode swift-mode
      jai-mode
-     java-mode groovy-mode processing-mode
+     java-mode processing-mode
+     groovy-mode jenkinsfile-mode
      javascript-mode js-mode js2-mode js3-mode json-mode rjsx-mode
      web-mode php-mode
      actionscript-mode typescript-mode
