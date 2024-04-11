@@ -1,4 +1,4 @@
-**DEPRECATED NOTICE: This package is replaced with [auto-close-block](https://github.com/emacs-vs/auto-close-block).**
+**DEPRECATED NOTICE: This package is no longer supported as it has been superseded by the [auto-close-block](https://github.com/emacs-vs/auto-close-block) package.**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![JCS-ELPA](https://raw.githubusercontent.com/jcs-emacs/badges/master/elpa/v/doxygen-asterisk.svg)](https://jcs-emacs.github.io/jcs-elpa/#/doxygen-asterisk)
