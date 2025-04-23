@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "doxygen-asterisk"
          "0.1.0"
          "Minor mode that helps you insert pair /* and */")
